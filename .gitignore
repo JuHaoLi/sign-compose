@@ -33,6 +33,10 @@ private/
 imports/
 signatures/
 
+# Local planning notes, intentionally not published
+plan.md
+plan-迭代2.md
+
 # Spreadsheets commonly containing real-world data
 *.xlsx
 *.xls
