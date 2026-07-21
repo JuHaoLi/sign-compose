@@ -106,8 +106,6 @@ npm test
 │   ├── src/preload.js           # 渲染进程白名单 API
 │   └── test/selftest.js         # 自包含发布前自测
 ├── 启动签名合成App.command
-├── plan.md
-├── plan-迭代2.md
 └── 项目功能总结.md
 ```
 
@@ -123,7 +121,7 @@ npm test
 ## 项目文档
 
 - [版本变更](CHANGELOG.md) · [后续工作](TODOS.md)
-- [迭代 1 施工细则](plan.md) · [迭代 2 施工细则](plan-迭代2.md) · [功能总结](项目功能总结.md)
+- [功能总结](项目功能总结.md)
 
 ## License
 

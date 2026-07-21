@@ -42,8 +42,6 @@ macOS 也可双击根目录的 `启动签名合成App.command`。应用不创建
 │   ├── src/renderer/        # 原生 HTML/CSS/JS 界面
 │   └── test/selftest.js     # 可执行自测
 ├── 启动签名合成App.command
-├── plan.md
-├── plan-迭代2.md
 └── 项目功能总结.md
 ```
 
