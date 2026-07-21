@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'" />
+  <title>人工签名合成</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="topbar">
+    <span class="logo">人工签名合成</span>
+    <nav id="tabs" class="hidden">
+      <button data-view="library" class="tab">签名库</button>
+      <button data-view="workspace" class="tab">工作区</button>
+    </nav>
+    <span id="current-user" class="hidden"></span>
+    <button id="switch-user" class="hidden link-btn">退出登录</button>
+  </header>
+  <main id="view"></main>
+  <div id="toast" class="hidden"></div>
+
+  <script src="safe.js"></script>
+  <script src="views/users.js"></script>
+  <script src="views/library.js"></script>
+  <script src="views/workspace.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
