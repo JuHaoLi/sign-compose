@@ -1,0 +1,23 @@
+{
+  "name": "sign-compose-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/index.js",
+  "scripts": {
+    "test": "node test/selftest.js",
+    "start": "ELECTRON_RUN_AS_NODE= electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^43.1.1",
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.1",
+    "pinyin-pro": "^3.28.1",
+    "sharp": "^0.35.3"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

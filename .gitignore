@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build and package output
+dist/
+out/
+build/
+release/
+*.dmg
+*.pkg
+*.tgz
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.gstack/
+.npm/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Local application data and private imports
+userData/
+**/userData/
+private/
+imports/
+signatures/
+
+# Spreadsheets commonly containing real-world data
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.numbers
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
